@@ -7,160 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E567A7342458810F000A8E7F /* FrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E567A72A2458810F000A8E7F /* FrameworkTest.framework */; };
-		E567A7392458810F000A8E7F /* FrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E567A7382458810F000A8E7F /* FrameworkTestTests.m */; };
-		E567A73B2458810F000A8E7F /* FrameworkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E567A72D2458810F000A8E7F /* FrameworkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E567A74A24588276000A8E7F /* MrfungTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E567A74824588276000A8E7F /* MrfungTest.h */; };
-		E567A74B24588276000A8E7F /* MrfungTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E567A74924588276000A8E7F /* MrfungTest.m */; };
+		E567A76124589C71000A8E7F /* MrFungFrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E567A75724589C71000A8E7F /* MrFungFrameworkTest.framework */; };
+		E567A76624589C71000A8E7F /* MrFungFrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E567A76524589C71000A8E7F /* MrFungFrameworkTestTests.m */; };
+		E567A76824589C71000A8E7F /* MrFungFrameworkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E567A75A24589C71000A8E7F /* MrFungFrameworkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E567A7352458810F000A8E7F /* PBXContainerItemProxy */ = {
+		E567A76224589C71000A8E7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E567A7212458810F000A8E7F /* Project object */;
+			containerPortal = E567A74E24589C71000A8E7F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E567A7292458810F000A8E7F;
-			remoteInfo = FrameworkTest;
+			remoteGlobalIDString = E567A75624589C71000A8E7F;
+			remoteInfo = MrFungFrameworkTest;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E567A72A2458810F000A8E7F /* FrameworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FrameworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E567A72D2458810F000A8E7F /* FrameworkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FrameworkTest.h; sourceTree = "<group>"; };
-		E567A72E2458810F000A8E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E567A7332458810F000A8E7F /* FrameworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E567A7382458810F000A8E7F /* FrameworkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrameworkTestTests.m; sourceTree = "<group>"; };
-		E567A73A2458810F000A8E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E567A74824588276000A8E7F /* MrfungTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MrfungTest.h; sourceTree = "<group>"; };
-		E567A74924588276000A8E7F /* MrfungTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrfungTest.m; sourceTree = "<group>"; };
+		E567A75724589C71000A8E7F /* MrFungFrameworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MrFungFrameworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E567A75A24589C71000A8E7F /* MrFungFrameworkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MrFungFrameworkTest.h; sourceTree = "<group>"; };
+		E567A75B24589C71000A8E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E567A76024589C71000A8E7F /* MrFungFrameworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrFungFrameworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E567A76524589C71000A8E7F /* MrFungFrameworkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrFungFrameworkTestTests.m; sourceTree = "<group>"; };
+		E567A76724589C71000A8E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E567A7272458810F000A8E7F /* Frameworks */ = {
+		E567A75424589C71000A8E7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E567A7302458810F000A8E7F /* Frameworks */ = {
+		E567A75D24589C71000A8E7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E567A7342458810F000A8E7F /* FrameworkTest.framework in Frameworks */,
+				E567A76124589C71000A8E7F /* MrFungFrameworkTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E567A7202458810F000A8E7F = {
+		E567A74D24589C71000A8E7F = {
 			isa = PBXGroup;
 			children = (
-				E567A72C2458810F000A8E7F /* FrameworkTest */,
-				E567A7372458810F000A8E7F /* FrameworkTestTests */,
-				E567A72B2458810F000A8E7F /* Products */,
+				E567A75924589C71000A8E7F /* MrFungFrameworkTest */,
+				E567A76424589C71000A8E7F /* MrFungFrameworkTestTests */,
+				E567A75824589C71000A8E7F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E567A72B2458810F000A8E7F /* Products */ = {
+		E567A75824589C71000A8E7F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E567A72A2458810F000A8E7F /* FrameworkTest.framework */,
-				E567A7332458810F000A8E7F /* FrameworkTestTests.xctest */,
+				E567A75724589C71000A8E7F /* MrFungFrameworkTest.framework */,
+				E567A76024589C71000A8E7F /* MrFungFrameworkTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E567A72C2458810F000A8E7F /* FrameworkTest */ = {
+		E567A75924589C71000A8E7F /* MrFungFrameworkTest */ = {
 			isa = PBXGroup;
 			children = (
-				E567A72D2458810F000A8E7F /* FrameworkTest.h */,
-				E567A74824588276000A8E7F /* MrfungTest.h */,
-				E567A74924588276000A8E7F /* MrfungTest.m */,
-				E567A72E2458810F000A8E7F /* Info.plist */,
+				E567A75A24589C71000A8E7F /* MrFungFrameworkTest.h */,
+				E567A75B24589C71000A8E7F /* Info.plist */,
 			);
-			path = FrameworkTest;
+			path = MrFungFrameworkTest;
 			sourceTree = "<group>";
 		};
-		E567A7372458810F000A8E7F /* FrameworkTestTests */ = {
+		E567A76424589C71000A8E7F /* MrFungFrameworkTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				E567A7382458810F000A8E7F /* FrameworkTestTests.m */,
-				E567A73A2458810F000A8E7F /* Info.plist */,
+				E567A76524589C71000A8E7F /* MrFungFrameworkTestTests.m */,
+				E567A76724589C71000A8E7F /* Info.plist */,
 			);
-			path = FrameworkTestTests;
+			path = MrFungFrameworkTestTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E567A7252458810F000A8E7F /* Headers */ = {
+		E567A75224589C71000A8E7F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E567A73B2458810F000A8E7F /* FrameworkTest.h in Headers */,
-				E567A74A24588276000A8E7F /* MrfungTest.h in Headers */,
+				E567A76824589C71000A8E7F /* MrFungFrameworkTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		E567A7292458810F000A8E7F /* FrameworkTest */ = {
+		E567A75624589C71000A8E7F /* MrFungFrameworkTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E567A73E2458810F000A8E7F /* Build configuration list for PBXNativeTarget "FrameworkTest" */;
+			buildConfigurationList = E567A76B24589C71000A8E7F /* Build configuration list for PBXNativeTarget "MrFungFrameworkTest" */;
 			buildPhases = (
-				E567A7252458810F000A8E7F /* Headers */,
-				E567A7262458810F000A8E7F /* Sources */,
-				E567A7272458810F000A8E7F /* Frameworks */,
-				E567A7282458810F000A8E7F /* Resources */,
+				E567A75224589C71000A8E7F /* Headers */,
+				E567A75324589C71000A8E7F /* Sources */,
+				E567A75424589C71000A8E7F /* Frameworks */,
+				E567A75524589C71000A8E7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FrameworkTest;
-			productName = FrameworkTest;
-			productReference = E567A72A2458810F000A8E7F /* FrameworkTest.framework */;
+			name = MrFungFrameworkTest;
+			productName = MrFungFrameworkTest;
+			productReference = E567A75724589C71000A8E7F /* MrFungFrameworkTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E567A7322458810F000A8E7F /* FrameworkTestTests */ = {
+		E567A75F24589C71000A8E7F /* MrFungFrameworkTestTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E567A7412458810F000A8E7F /* Build configuration list for PBXNativeTarget "FrameworkTestTests" */;
+			buildConfigurationList = E567A76E24589C71000A8E7F /* Build configuration list for PBXNativeTarget "MrFungFrameworkTestTests" */;
 			buildPhases = (
-				E567A72F2458810F000A8E7F /* Sources */,
-				E567A7302458810F000A8E7F /* Frameworks */,
-				E567A7312458810F000A8E7F /* Resources */,
+				E567A75C24589C71000A8E7F /* Sources */,
+				E567A75D24589C71000A8E7F /* Frameworks */,
+				E567A75E24589C71000A8E7F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E567A7362458810F000A8E7F /* PBXTargetDependency */,
+				E567A76324589C71000A8E7F /* PBXTargetDependency */,
 			);
-			name = FrameworkTestTests;
-			productName = FrameworkTestTests;
-			productReference = E567A7332458810F000A8E7F /* FrameworkTestTests.xctest */;
+			name = MrFungFrameworkTestTests;
+			productName = MrFungFrameworkTestTests;
+			productReference = E567A76024589C71000A8E7F /* MrFungFrameworkTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E567A7212458810F000A8E7F /* Project object */ = {
+		E567A74E24589C71000A8E7F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "郭枫";
 				TargetAttributes = {
-					E567A7292458810F000A8E7F = {
+					E567A75624589C71000A8E7F = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
-					E567A7322458810F000A8E7F = {
+					E567A75F24589C71000A8E7F = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = E567A7242458810F000A8E7F /* Build configuration list for PBXProject "FrameworkTest" */;
+			buildConfigurationList = E567A75124589C71000A8E7F /* Build configuration list for PBXProject "MrFungFrameworkTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -168,26 +161,26 @@
 				en,
 				Base,
 			);
-			mainGroup = E567A7202458810F000A8E7F;
-			productRefGroup = E567A72B2458810F000A8E7F /* Products */;
+			mainGroup = E567A74D24589C71000A8E7F;
+			productRefGroup = E567A75824589C71000A8E7F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E567A7292458810F000A8E7F /* FrameworkTest */,
-				E567A7322458810F000A8E7F /* FrameworkTestTests */,
+				E567A75624589C71000A8E7F /* MrFungFrameworkTest */,
+				E567A75F24589C71000A8E7F /* MrFungFrameworkTestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E567A7282458810F000A8E7F /* Resources */ = {
+		E567A75524589C71000A8E7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E567A7312458810F000A8E7F /* Resources */ = {
+		E567A75E24589C71000A8E7F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,34 +190,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E567A7262458810F000A8E7F /* Sources */ = {
+		E567A75324589C71000A8E7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E567A74B24588276000A8E7F /* MrfungTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E567A72F2458810F000A8E7F /* Sources */ = {
+		E567A75C24589C71000A8E7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E567A7392458810F000A8E7F /* FrameworkTestTests.m in Sources */,
+				E567A76624589C71000A8E7F /* MrFungFrameworkTestTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E567A7362458810F000A8E7F /* PBXTargetDependency */ = {
+		E567A76324589C71000A8E7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E567A7292458810F000A8E7F /* FrameworkTest */;
-			targetProxy = E567A7352458810F000A8E7F /* PBXContainerItemProxy */;
+			target = E567A75624589C71000A8E7F /* MrFungFrameworkTest */;
+			targetProxy = E567A76224589C71000A8E7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E567A73C2458810F000A8E7F /* Debug */ = {
+		E567A76924589C71000A8E7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +277,7 @@
 			};
 			name = Debug;
 		};
-		E567A73D2458810F000A8E7F /* Release */ = {
+		E567A76A24589C71000A8E7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -340,7 +332,7 @@
 			};
 			name = Release;
 		};
-		E567A73F2458810F000A8E7F /* Debug */ = {
+		E567A76C24589C71000A8E7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -349,22 +341,21 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FrameworkTest/Info.plist;
+				INFOPLIST_FILE = MrFungFrameworkTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.--.FrameworkTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.MrFungFrameworkTest";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E567A7402458810F000A8E7F /* Release */ = {
+		E567A76D24589C71000A8E7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -373,50 +364,49 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FrameworkTest/Info.plist;
+				INFOPLIST_FILE = MrFungFrameworkTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.--.FrameworkTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.MrFungFrameworkTest";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		E567A7422458810F000A8E7F /* Debug */ = {
+		E567A76F24589C71000A8E7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UGFD8WLX25;
-				INFOPLIST_FILE = FrameworkTestTests/Info.plist;
+				INFOPLIST_FILE = MrFungFrameworkTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.--.FrameworkTestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.MrFungFrameworkTestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E567A7432458810F000A8E7F /* Release */ = {
+		E567A77024589C71000A8E7F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UGFD8WLX25;
-				INFOPLIST_FILE = FrameworkTestTests/Info.plist;
+				INFOPLIST_FILE = MrFungFrameworkTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.--.FrameworkTestTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--.MrFungFrameworkTestTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -425,34 +415,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E567A7242458810F000A8E7F /* Build configuration list for PBXProject "FrameworkTest" */ = {
+		E567A75124589C71000A8E7F /* Build configuration list for PBXProject "MrFungFrameworkTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E567A73C2458810F000A8E7F /* Debug */,
-				E567A73D2458810F000A8E7F /* Release */,
+				E567A76924589C71000A8E7F /* Debug */,
+				E567A76A24589C71000A8E7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E567A73E2458810F000A8E7F /* Build configuration list for PBXNativeTarget "FrameworkTest" */ = {
+		E567A76B24589C71000A8E7F /* Build configuration list for PBXNativeTarget "MrFungFrameworkTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E567A73F2458810F000A8E7F /* Debug */,
-				E567A7402458810F000A8E7F /* Release */,
+				E567A76C24589C71000A8E7F /* Debug */,
+				E567A76D24589C71000A8E7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E567A7412458810F000A8E7F /* Build configuration list for PBXNativeTarget "FrameworkTestTests" */ = {
+		E567A76E24589C71000A8E7F /* Build configuration list for PBXNativeTarget "MrFungFrameworkTestTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E567A7422458810F000A8E7F /* Debug */,
-				E567A7432458810F000A8E7F /* Release */,
+				E567A76F24589C71000A8E7F /* Debug */,
+				E567A77024589C71000A8E7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E567A7212458810F000A8E7F /* Project object */;
+	rootObject = E567A74E24589C71000A8E7F /* Project object */;
 }

@@ -1,18 +1,18 @@
 //
-//  FrameworkTestTests.m
-//  FrameworkTestTests
+//  MrFungFrameworkTestTests.m
+//  MrFungFrameworkTestTests
 //
-//  Created by 郭枫 on 2020/4/28.
+//  Created by 郭枫 on 2020/4/29.
 //  Copyright © 2020 郭枫. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface FrameworkTestTests : XCTestCase
+@interface MrFungFrameworkTestTests : XCTestCase
 
 @end
 
-@implementation FrameworkTestTests
+@implementation MrFungFrameworkTestTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
