@@ -10,7 +10,7 @@
 		E567A76124589C71000A8E7F /* MrFungFrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E567A75724589C71000A8E7F /* MrFungFrameworkTest.framework */; };
 		E567A76624589C71000A8E7F /* MrFungFrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E567A76524589C71000A8E7F /* MrFungFrameworkTestTests.m */; };
 		E567A76824589C71000A8E7F /* MrFungFrameworkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E567A75A24589C71000A8E7F /* MrFungFrameworkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E567A773246305A3000A8E7F /* MrFungFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E567A771246305A3000A8E7F /* MrFungFramework.h */; };
+		E567A773246305A3000A8E7F /* MrFungFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E567A771246305A3000A8E7F /* MrFungFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E567A774246305A3000A8E7F /* MrFungFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = E567A772246305A3000A8E7F /* MrFungFramework.m */; };
 /* End PBXBuildFile section */
 

@@ -1,0 +1,6 @@
+framework module MrFungFrameworkTest {
+  umbrella header "MrFungFrameworkTest.h"
+
+  export *
+  module * { export * }
+}

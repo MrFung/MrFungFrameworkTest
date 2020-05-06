@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "478e768a5b966755b5026b54acde129e67303da0",
+  "iOS" : [
+    {
+      "name" : "MrFungFrameworkTest",
+      "hash" : "16726eb67317a79a87165f4ea3597638a13df40d418194370cdf94e465047c34"
+    }
+  ]
+}
