@@ -10,6 +10,8 @@
 		E567A76124589C71000A8E7F /* MrFungFrameworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E567A75724589C71000A8E7F /* MrFungFrameworkTest.framework */; };
 		E567A76624589C71000A8E7F /* MrFungFrameworkTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E567A76524589C71000A8E7F /* MrFungFrameworkTestTests.m */; };
 		E567A76824589C71000A8E7F /* MrFungFrameworkTest.h in Headers */ = {isa = PBXBuildFile; fileRef = E567A75A24589C71000A8E7F /* MrFungFrameworkTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E567A773246305A3000A8E7F /* MrFungFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = E567A771246305A3000A8E7F /* MrFungFramework.h */; };
+		E567A774246305A3000A8E7F /* MrFungFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = E567A772246305A3000A8E7F /* MrFungFramework.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		E567A76024589C71000A8E7F /* MrFungFrameworkTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MrFungFrameworkTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E567A76524589C71000A8E7F /* MrFungFrameworkTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrFungFrameworkTestTests.m; sourceTree = "<group>"; };
 		E567A76724589C71000A8E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E567A771246305A3000A8E7F /* MrFungFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MrFungFramework.h; sourceTree = "<group>"; };
+		E567A772246305A3000A8E7F /* MrFungFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrFungFramework.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				E567A75A24589C71000A8E7F /* MrFungFrameworkTest.h */,
+				E567A771246305A3000A8E7F /* MrFungFramework.h */,
+				E567A772246305A3000A8E7F /* MrFungFramework.m */,
 				E567A75B24589C71000A8E7F /* Info.plist */,
 			);
 			path = MrFungFrameworkTest;
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E567A773246305A3000A8E7F /* MrFungFramework.h in Headers */,
 				E567A76824589C71000A8E7F /* MrFungFrameworkTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E567A774246305A3000A8E7F /* MrFungFramework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
